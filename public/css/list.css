@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .table-header {
+        @apply px-6 py-3 text-left text-sm font-medium bg-gray-200 text-gray-600;
+    }
+    .table-cell {
+        @apply px-6 py-4 text-sm text-gray-900;
+    }
+    .table-row {
+        @apply bg-white hover:bg-gray-50;
+    }
+    .btn-edit {
+        @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600;
+    }
+    .btn-delete {
+        @apply px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600;
+    }
+    .btn-create {
+        @apply px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600;
+    }
+}
